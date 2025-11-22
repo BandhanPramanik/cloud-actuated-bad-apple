@@ -54,12 +54,16 @@ This ensures the video runs at a strict 15 Hz, regardless of how fast the proces
  * Upload to ESP32.
 ### 2. Controller (Python)
  * Install Python requirements:
-   ```pip install discord.py paho-mqtt``` 
+   ```
+   pip install discord.py paho-mqtt
+   ``` 
    (for Fedora)
 
  * Update DISCORD_TOKEN and GUILD_ID in `discordbot.py`.
  * Run the bot:
-   ```python3 bot.py``` 
+   ```
+   python3 bot.py
+   ``` 
    (for Fedora)
 
 ### 3. Asset Preparation
