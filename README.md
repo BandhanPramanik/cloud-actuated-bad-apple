@@ -71,7 +71,6 @@ Go to your Discord Server and use the Slash Commands:
  * /pause: Freezes video and displays "PAUSED" overlay.
  * /resume: Continues playback from the exact frame.
  * /stop: Clears screen, stops audio, and resets the state machine.
- * /audio: Plays a demo chiptune melody to test the DAC.
 ## 📜 Credits
  * Video Source: "Bad Apple!!" (Touhou Project)
  * Libraries: Adafruit, PubSubClient
