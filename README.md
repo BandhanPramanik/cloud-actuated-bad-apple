@@ -2,7 +2,7 @@
 A multi-threaded embedded system that streams raw video and audio from an SD card, controlled remotely via Discord Slash Commands with millisecond latency.
 
 ## 📖 Overview
-This project demonstrates an end-to-end IoT Control System. It allows a user to control physical hardware (an ESP32) via a cloud interface (Discord). The system features a custom-written video rendering engine and a direct-drive audio driver to overcome the hardware limitations of the ESP32 WROOM chip.
+This project demonstrates an end-to-end IoT Control System. It allows a user to control physical hardware (an ESP32) via a cloud interface (Discord). The system features a custom-written video rendering engine and a direct-drive audio driver to overcome the hardware limitations of the ESP32 Devkit V1 chip.
 Key Features
  * ☁️ Cloud Telemetry: Controlled via a custom Discord Bot using MQTT as the real-time message broker.
  * 📺 High-Speed Rendering: Plays video at a locked 15 FPS on an I2C OLED by overclocking the bus to 800kHz.
