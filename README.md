@@ -50,15 +50,17 @@ This ensures the video runs at a strict 15 Hz, regardless of how fast the proces
  * Install dependencies:
    * PubSubClient (Nick O'Leary)
    * Adafruit_GFX & Adafruit_SH110X
- * Update ssid, password, and pins in config section.
+ * Update ssid, password, and pins in the config section.
  * Upload to ESP32.
 ### 2. Controller (Python)
  * Install Python requirements:
-   `pip install discord.py paho-mqtt` (for Fedora)
+   ```pip install discord.py paho-mqtt``` 
+   (for Fedora)
 
- * Update DISCORD_TOKEN and GUILD_ID in bot.py.
+ * Update DISCORD_TOKEN and GUILD_ID in `discordbot.py`.
  * Run the bot:
-   `python3 bot.py` (for Fedora)
+   ```python3 bot.py``` 
+   (for Fedora)
 
 ### 3. Asset Preparation
 The video file must be processed into a raw binary format.
